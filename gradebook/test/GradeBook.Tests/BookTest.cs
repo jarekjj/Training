@@ -8,12 +8,21 @@ namespace GradeBook.Tests
         [Fact]
         public void Test1()
         {
-            var x = 5;
-            var y = 2;
-            var expected = 10;
-            var actual = x * y;
+            //arrange
+            
+            var book = new Book("");
+            book.AddGrade(89.1);
+            book.AddGrade(90.5);
+            book.AddGrade(77.3);
+            
+            //act
+            var result = book.GetStatistics();
 
-            Assert.Equal(expected, actual);
+
+            //assert
+            Assert.Equal(85.6, result.Average);
+            Assert.Equal(90.5, result.High);
+            Assert.Equal(77.3, result.Low);
         }
     }
 }
