@@ -6514,19 +6514,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JarekJakubowski\\.nuget\\packages\\": {}
+    "C:\\Users\\jarek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JarekJakubowski\\Training\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jarek\\Projects\\Training\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "C:\\Users\\JarekJakubowski\\Training\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-      "packagesPath": "C:\\Users\\JarekJakubowski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JarekJakubowski\\Training\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "projectPath": "C:\\Users\\jarek\\Projects\\Training\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jarek\\Projects\\Training\\gradebook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JarekJakubowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6534,18 +6534,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://dotnet.myget.org/F/aspnetcore-dev/api/v2": {},
-        "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {},
-        "https://www.myget.org/F/dotnet-core/api/v2": {},
-        "https://www.myget.org/F/dotnet-core/api/v3/index.json": {},
-        "https://www.myget.org/F/redriversoftware/auth/ec5ae86d-7452-499f-b655-b7e1c2aec9f5/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\JarekJakubowski\\Training\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\JarekJakubowski\\Training\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "C:\\Users\\jarek\\Projects\\Training\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\jarek\\Projects\\Training\\gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }

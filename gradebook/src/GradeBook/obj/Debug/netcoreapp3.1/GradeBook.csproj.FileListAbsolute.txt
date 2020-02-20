@@ -9,3 +9,14 @@ C:\Users\JarekJakubowski\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.
 C:\Users\JarekJakubowski\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
 C:\Users\JarekJakubowski\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 C:\Users\JarekJakubowski\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\jarek\Projects\Training\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
