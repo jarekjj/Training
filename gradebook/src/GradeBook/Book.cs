@@ -3,20 +3,62 @@ using System;
 
 namespace GradeBook
 {
-   public class Book
-    {
-        public Book(string name)
+   public delegate void GradeAddedDelegate(object sender, EventArgs args); 
+
+    public class NamedObject
+   {
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+
+        public string Name
+        {
+            get; 
+            set;
+        } 
+   }
+
+   public class Book : NamedObject
+   {
+        public Book(string name) : base(name)
         {
             grades = new List<double>();
             Name = name;
         }
 
-        
+        public void AddGrade(char letter)
+        {
+            switch(letter)
+            {
+                case 'A':
+                AddGrade(90);
+                break;
+
+                case 'B':
+                AddGrade(80);
+                break;
+
+                case 'C':
+                AddGrade(70);
+                break;
+
+                default:
+                AddGrade(0);
+                break;
+            }
+        }
+
+
         public void AddGrade(double grade)
         {
             if(grade <= 100 && grade >= 0)
             {
                 grades.Add(grade);
+                if(GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
             }
 
             else
@@ -26,6 +68,7 @@ namespace GradeBook
             
         }
 
+        public event GradeAddedDelegate GradeAdded;
         public  Statistics GetStatistics()
         {
             var result = new Statistics();
@@ -73,6 +116,6 @@ namespace GradeBook
             
         }
         List<double> grades;  
-        public string Name;      
+ 
     }
 }
